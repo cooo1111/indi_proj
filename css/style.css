@@ -1,24 +1,21 @@
-/* Import Google Font (Autour One) */
-@import url('https://fonts.googleapis.com/css2?family=Autour+One&display=swap');
-
-/* General body style */
+/* Body */
 body {
-    background-color: #fff5f8; /* soft pink background */
-    font-family: Arial, sans-serif; /* keep body readable */
+    font-family: "Times New Roman", Times, serif;
+    background-color: #fff5f8;
     color: #333;
 }
 
 /* Main title */
 h1 {
-    font-family: 'Autour One', cursive;
+    font-family: 'Barrio', cursive;
     color: #ff4d88;
-    font-size: 2.5rem;
+    font-size: 2.8rem;
     margin-bottom: 20px;
 }
 
 /* Section titles */
 h2 {
-    font-family: 'Autour One', cursive;
+    font-family: 'Barrio', cursive;
     color: #e6005c;
     margin-bottom: 15px;
 }
@@ -28,7 +25,7 @@ h3 {
     color: #cc0066;
 }
 
-/* Paragraph styling */
+/* Paragraph */
 p {
     line-height: 1.6;
     font-size: 16px;
@@ -39,25 +36,21 @@ img {
     border: 3px solid #ff99bb;
     border-radius: 10px;
     padding: 5px;
+    margin-bottom: 10px;
     transition: transform 0.3s;
 }
 
-/* Image hover effect (nice but simple) */
+/* Hover effect */
 img:hover {
     transform: scale(1.05);
 }
 
-/* Container spacing improvement */
+/* Main profile image slightly bigger */
+.main-img {
+    max-width: 80%;
+}
+
+/* Container width */
 .container {
     max-width: 900px;
-}
-
-/* Add spacing between sections */
-.container.mt-5 {
-    padding-top: 10px;
-}
-
-/* Optional: make Basic Info box nicer */
-.col-md-6 p {
-    margin-bottom: 8px;
 }
